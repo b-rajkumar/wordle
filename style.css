@@ -51,17 +51,20 @@
 }
 
 .heading-letter:nth-child(1),
-.heading-letter:nth-child(4) {
+.heading-letter:nth-child(4),
+.heading-letter:nth-child(7) {
   background-color: var(--green-bg);
 }
 
 .heading-letter:nth-child(2),
-.heading-letter:nth-child(5) {
+.heading-letter:nth-child(5),
+.heading-letter:nth-child(8) {
   background-color: var(--yellow-bg);
 }
 
 .heading-letter:nth-child(3),
-.heading-letter:nth-child(6) {
+.heading-letter:nth-child(6),
+.heading-letter:nth-child(9) {
   background-color: var(--grey-bg);
 }
 

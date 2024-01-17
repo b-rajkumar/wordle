@@ -1,42 +1,48 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./scripts/wordle-controller.js"></script>
+    <script src="./scripts/wordle-stats.js"></script>
+    <script src="./scripts/display.js"></script>
+    <script src="./scripts/wordle.js"></script>
+    <script src="./main.js"></script>
+  </head>
 
-<head>
-  <link rel="stylesheet" href="./style.css" />
-  <script src="./scripts/wordle-controller.js"></script>
-  <script src="./scripts/wordle-stats.js"></script>
-  <script src="./scripts/display.js"></script>
-  <script src="./scripts/wordle.js"></script>
-  <script src="./main.js"></script>
-</head>
-
-<body>
-  <div id="page">
-    <header>
-      <div id="heading">
-        <div class="heading-letter">W</div>
-        <div class="heading-letter">O</div>
-        <div class="heading-letter">R</div>
-        <div class="heading-letter">D</div>
-        <div class="heading-letter">L</div>
-        <div class="heading-letter">E</div>
-      </div>
-      <section id="input-controls">
-        <input type="textbox" placeholder="Guess the secret word" maxlength="5" id="input-box" />
-      </section>
-      <section id="game-stats">
-        <div id="previous-game-result"></div>
-        <div id="game-status">
-          <div id="attempts-box"></div>
-          <div id="score-card"></div>
+  <body>
+    <div id="page">
+      <header>
+        <div id="heading">
+          <div class="heading-letter">W</div>
+          <div class="heading-letter">O</div>
+          <div class="heading-letter">R</div>
+          <div class="heading-letter">D</div>
+          <div class="heading-letter">L</div>
+          <div class="heading-letter">E</div>
+          <div class="heading-letter">P</div>
+          <div class="heading-letter">R</div>
+          <div class="heading-letter">O</div>
         </div>
-      </section>
-    </header>
+        <section id="input-controls">
+          <input
+            type="textbox"
+            placeholder="Guess the secret word"
+            maxlength="5"
+            id="input-box"
+          />
+        </section>
+        <section id="game-stats">
+          <div id="previous-game-result"></div>
+          <div id="game-status">
+            <div id="attempts-box"></div>
+            <div id="score-card"></div>
+          </div>
+        </section>
+      </header>
 
-    <main>
-      <div id="guesses"></div>
-      <div id="result-box"></div>
-    </main>
-  </div>
-</body>
-
+      <main>
+        <div id="guesses"></div>
+        <div id="result-box"></div>
+      </main>
+    </div>
+  </body>
 </html>
